@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primera Practica</title>
+</head>
+<body>
+    <header>
+        <h1>Primera práctica html</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#encabezado-estructura">Ir a Estructura</a></li>
+            <li><a href="#encabezado-multimedia">Ir a Multimedia</a></li>
+            <li><a href="#encabezado-formulario">Ir a Formulario</a></li>
+        </ul>
+    </nav>
+    
+    <section>
+        <h2 id="encabezado-estructura">1. Estructura Baásica del Documento HTML</h2>
+        <p>Este documento HTML tiene una estructura básica que incluye la declaracion de DOCTYPE, etiquetas de metadatos y un título</p>
+    </section>
+    
+    <section>
+        <h2>2. Encabezados y Propiedades del Texto</h2>
+
+        <h3><strong>Este es un texto en negrita</strong></h3>
+        <h4><em>Este es un texto en cursiva</em></h4>
+        <h5><u>Este es un texto subrayado</u></h5>
+        <h6>Este es texto normal</h6>
+    </section>
+
+    <section>
+        <h2>3. Divisiones y Agrupación de Contenido</h2>
+
+        <div>
+            <h3>Sección 1</h3>
+            <p>Contenido de la primera sección agrupada en un div</p>
+        </div>
+        <div>
+            <h3>Sección 2</h3>
+            <p>Contenido de la segunda sección agrupada en un div</p>
+        </div>
+    </section>
+    
+    <section>
+        <h2>4. Enlaces y Listas</h2>
+
+        <p>Visita nuestr <a href="https://www.youtube.com/playlist?list=PLRFOqDrY-6ns2FQdjmqx3ShGLRLj9ESPE">sitio web</a> para más información.</p>
+        <p>Lista desordenada:</p>
+        <ul>
+            <li>Primer item de una lista desordenada</li>
+            <li>segundo item de una lista desordenada</li>
+        </ul>
+        <p>Lista ordenada</p>
+        <ol>
+            <li>primer item de una lista ordenada</li>
+            <li>segundo item de una lista ordenada</li>
+        </ol>
+    </section>
+    
+    <section>
+        <h2 id="encabezado-multimedia">5. Elementos Multimedia</h2>
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s" alt="logo de html">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/AyUI13AjYeI?si=tKMpuyXyDscjt_ls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <!-- agregar audio -->
+    </section>
+
+    <section>
+        <h2>6. Tablas</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Columna 1</th>
+                    <th>Columna 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>dato1</td>
+                    <td>dato2</td>
+                </tr>
+                <tr>
+                    <td>dato3</td>
+                    <td>dato4</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2 id="encabezado-formulario">7.Formularios</h2>
+
+        <form action="/enviar-datos" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+        
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required><br><br>
+        
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="5" cols="30" required></textarea><br><br>
+        
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    
+
+    <footer>
+        <p>Trabajo práctico 2024 - Ornela Condorí</p>
+    </footer>
+</body>
+</html>
