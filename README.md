@@ -1,10 +1,10 @@
-# Programación 3 - Trabajos Prácticos
+# Practica HTML
 
 ## Descripción
-Este repositorio contiene los trabajos prácticos realizados durante el año en la materia Programación 3. Cada carpeta representa un trabajo o proyecto específico desarrollado en el curso.
+Este repositorio contiene un trabajo basico de HTML, para practicar el uso de las distintas etiquetas y estructura
 
 ## Requisitos Previos
-Para visualizar y editar los archivos de este repositorio, puedes utilizar cualquier editor de texto o entorno de desarrollo compatible con HTML y CSS. **Visual Studio Code**
+Para visualizar y editar los archivos de este repositorio, puedes utilizar cualquier editor de texto o entorno de desarrollo compatible con HTML. **Visual Studio Code**
 
 Hasta ahora, no se han utilizado librerías adicionales.
 
